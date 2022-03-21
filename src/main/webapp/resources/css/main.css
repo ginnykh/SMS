@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/* 브라우저 리셋 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #222;
+}
+
+ul, li{
+    list-style: none;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+#wrap{
+    width: 100%;
+    min-width: 1300px;
+}
+
+#container{
+	width: 1300px;
+    margin: 0 auto;
+    padding-top: 55px;
+}
+
+.containerIn{
+    width: 1300px;
+    margin: 0 auto;
+}    
+
+.slide{
+    position: relative;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.slide-img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -650px;
+    width: 1300px;
+    height: 380px;
+    background-image: url(../img/common/slide.png);
+    text-indent: -999999px;
+}
+
+#items{
+	margin-bottom: 50px;
+}
+
+.best{
+	margin-bottom: 30px
+}
+
+.thumbnail{
+    vertical-align: top;
+    border: 0;
+    width: 250px;
+    height: 350px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+}
+
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+.best h2, .new h2{
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+
+.best ul, .new ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.best li, .new li{
+    margin-bottom: 20px;
+    width: 250px;
+    position: relative;
+}
+
+.best p, .new p{
+    margin-bottom: 10px;
+}
+
+.description{
+    font-weight: bold;
+}
+
+.desSize{
+    position: absolute;
+    top: 400px;
+    left: 0;
+    /* 임시방편으로 FREE가 위에 제목에따라 다르게 위치해서 같게하려고 줬음 */
+}
+
+

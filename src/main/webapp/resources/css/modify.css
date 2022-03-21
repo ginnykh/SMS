@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+/* 브라우저 리셋 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #222;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+#wrap{
+    width: 100%;
+    min-width: 1300px;
+}
+
+#container{
+  padding-top:55px;
+}
+
+.containerIn{
+    width: 1300px;
+    margin: 0 auto;
+  }
+  
+  .slide{
+    position: relative;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.slide-img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -650px;
+    width: 1300px;
+    height: 380px;
+    background-image: url(../img/common/slide.png);
+    text-indent: -999999px;
+}
+  
+  .write{
+    position: relative;  
+    text-align: center;
+    padding: 50px;
+    width: 900px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(253, 217, 169);
+    border-top: 1px solid rgb(253, 217, 169);
+    margin-bottom: 80px;
+  }
+  .write form{
+    width: 900px;
+    margin-bottom: 15px;
+  }
+  legend{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .bno{
+      display: none;
+  }
+  .write table{
+    width: 900px;
+    margin-bottom: 15px;
+  }
+  .title{
+    font-size: 15px;
+    padding: 10px 70px 10px 30px;
+    box-sizing: border-box;
+    width: 904px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(253, 217, 169);
+    border-radius: 3px;
+  }
+  .title::placeholder{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .text{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    width: 904px;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    border: 2px solid rgb(253, 217, 169);
+    resize: none;
+    border-radius: 3px;
+  }
+  .sub{
+    width: 70px;
+    border: 0;
+    background-color: rgb(253, 217, 169);
+    border-radius: 3px;
+    height: 25px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+  }
+  .countText{
+      position: absolute;
+      right: 70px;
+      bottom: 130px;
+      color: #aaa;
+  }
+  .countTitle{
+      position: absolute;
+      right: 70px;
+      top: 106px;
+      color: #aaa;
+  }

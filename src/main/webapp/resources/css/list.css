@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/* 전체 리셋 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #222;
+}
+
+ul,li{
+    list-style: none;
+}
+
+img{
+    vertical-align: top;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#wrap{
+    width: 100%;
+    min-width: 1300px;
+}
+
+#container{
+    padding-top: 55px;
+}
+
+
+
+
+.slide{
+    position: relative;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.slide-img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -650px;
+    width: 1300px;
+    height: 380px;
+    background-image: url(../img/common/slide.png);
+    text-indent: -999999px;
+}
+
+.board{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    margin-bottom: 80px;
+    border-top: 1px solid rgb(253, 217, 169);
+    border-bottom: 1px solid rgb(253, 217, 169);
+}
+
+h2{
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: #444;
+    line-height: 25px;
+
+}
+
+table{
+    width: 1100px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+th{
+    background-color: rgb(253, 217, 169);
+    color: #fff;
+    font-weight: 400;
+}
+
+th, td{
+    padding: 13px 0;
+    border-bottom: 1px dotted rgb(253, 217, 169);
+}
+
+td a{
+    color: #444;
+}
+th .bno{
+	width:50px;
+}
+th .title{
+	width: 300px;
+}
+
+.write{
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.write a{
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 15px;
+    background-color: rgb(253, 217, 169);
+    border-radius: 3px;
+}
+
+.search{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+label{
+    margin-right: 10px;
+}
+
+.s-text{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.button{
+	margin-left: 10px;
+	border-radius:3px;
+    padding: 6px 25px;
+    background-color: rgb(253, 217, 169);
+    color: #fff;
+    border: none;
+}
+
+.paging{
+	margin-bottom:30px;
+}
+
+.paging a{
+	color: #555;
+}
+
+.paging li{
+	display: inline-block;
+	padding: 0 3px;
+}

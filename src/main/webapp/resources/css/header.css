@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/* 브라우저 리셋 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #222;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/*#wrap{
+    width: 1300px;
+    min-width: 1300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+#header{
+	margin: 0 auto;
+    width: 1300px;
+    position: relative;
+}
+
+.headerIn{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.logo{
+    position: absolute;
+    top: 3px;
+    left: 0px;
+}
+
+.gnb{
+    position: absolute;
+    right: 0px;
+    top: 30px;
+}
+
+.gnb ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gnb li{
+    margin-left: 10px;
+}
+
+.logo img{
+    width: 150px;
+    height: auto;
+}
+
+.fixMenu a{
+    color: #555;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.fixMenu a:hover{
+	color: #222;
+}
+
+.fixMenu{
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+/* sticky 속성은 sticky 선언한 영역의 부모 요소 안에서만
+고정되어 스크롤에 따라 움직이게 된다는 것 */
